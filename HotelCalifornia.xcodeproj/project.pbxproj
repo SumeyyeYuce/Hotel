@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125BC0D929A529A6007B0A8D /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125BC0D829A529A6007B0A8D /* SelectRoomTypeTableViewController.swift */; };
+		125BC0DB29A55731007B0A8D /* RegistirationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125BC0DA29A55731007B0A8D /* RegistirationsTableViewController.swift */; };
 		12704C2F299F837000201805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12704C2E299F837000201805 /* AppDelegate.swift */; };
 		12704C31299F837000201805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12704C30299F837000201805 /* SceneDelegate.swift */; };
-		12704C33299F837000201805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12704C32299F837000201805 /* ViewController.swift */; };
 		12704C36299F837000201805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12704C34299F837000201805 /* Main.storyboard */; };
 		12704C39299F837000201805 /* HotelCalifornia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12704C37299F837000201805 /* HotelCalifornia.xcdatamodeld */; };
 		12704C3B299F837500201805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12704C3A299F837500201805 /* Assets.xcassets */; };
 		12704C3E299F837500201805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12704C3C299F837500201805 /* LaunchScreen.storyboard */; };
+		12704C46299F84F200201805 /* Registiration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12704C45299F84F200201805 /* Registiration.swift */; };
+		12704C49299F86F300201805 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12704C48299F86F300201805 /* RoomType.swift */; };
+		12704C4B299F8F8500201805 /* AddRegistirationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12704C4A299F8F8400201805 /* AddRegistirationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125BC0D829A529A6007B0A8D /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
+		125BC0DA29A55731007B0A8D /* RegistirationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistirationsTableViewController.swift; sourceTree = "<group>"; };
 		12704C2B299F837000201805 /* HotelCalifornia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelCalifornia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12704C2E299F837000201805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12704C30299F837000201805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12704C32299F837000201805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12704C35299F837000201805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12704C38299F837000201805 /* HotelCalifornia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HotelCalifornia.xcdatamodel; sourceTree = "<group>"; };
 		12704C3A299F837500201805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12704C3D299F837500201805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12704C3F299F837600201805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12704C45299F84F200201805 /* Registiration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registiration.swift; sourceTree = "<group>"; };
+		12704C48299F86F300201805 /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		12704C4A299F8F8400201805 /* AddRegistirationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistirationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,10 @@
 		12704C2D299F837000201805 /* HotelCalifornia */ = {
 			isa = PBXGroup;
 			children = (
+				12704C4C299F8FC200201805 /* Controllers */,
+				12704C47299F856D00201805 /* Models */,
 				12704C2E299F837000201805 /* AppDelegate.swift */,
 				12704C30299F837000201805 /* SceneDelegate.swift */,
-				12704C32299F837000201805 /* ViewController.swift */,
 				12704C34299F837000201805 /* Main.storyboard */,
 				12704C3A299F837500201805 /* Assets.xcassets */,
 				12704C3C299F837500201805 /* LaunchScreen.storyboard */,
@@ -68,6 +77,25 @@
 				12704C37299F837000201805 /* HotelCalifornia.xcdatamodeld */,
 			);
 			path = HotelCalifornia;
+			sourceTree = "<group>";
+		};
+		12704C47299F856D00201805 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12704C45299F84F200201805 /* Registiration.swift */,
+				12704C48299F86F300201805 /* RoomType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12704C4C299F8FC200201805 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12704C4A299F8F8400201805 /* AddRegistirationTableViewController.swift */,
+				125BC0D829A529A6007B0A8D /* SelectRoomTypeTableViewController.swift */,
+				125BC0DA29A55731007B0A8D /* RegistirationsTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125BC0DB29A55731007B0A8D /* RegistirationsTableViewController.swift in Sources */,
+				12704C4B299F8F8500201805 /* AddRegistirationTableViewController.swift in Sources */,
 				12704C39299F837000201805 /* HotelCalifornia.xcdatamodeld in Sources */,
-				12704C33299F837000201805 /* ViewController.swift in Sources */,
 				12704C2F299F837000201805 /* AppDelegate.swift in Sources */,
+				12704C49299F86F300201805 /* RoomType.swift in Sources */,
+				12704C46299F84F200201805 /* Registiration.swift in Sources */,
+				125BC0D929A529A6007B0A8D /* SelectRoomTypeTableViewController.swift in Sources */,
 				12704C31299F837000201805 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
